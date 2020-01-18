@@ -65,7 +65,10 @@
 
 
    <!-- el side nav -->
-   <nav> <!-- navbar content here  --> </nav>
+   <nav class="container"> 
+             <h5>Alkis Shopping Cart</h5>
+    
+   </nav>
 
   <div id="slide-out" class="sidenav">
     <div class="wrap">
@@ -206,8 +209,9 @@
 
                                                         // la pic
                                                         let pic = doc.createElement('img');
-                                                        pic.src = data.pic.src;
-                                                        pic.style.width = '90%';
+                                                        pic.src = data.pic.src; // change src
+                                                        pic.alt = 'pic';
+                                                        pic.style.width = '90%'; // add styles
                                                         pic.style.height = '80%';
                                                         pic.style.margin = '5px 10px';
                                                         // el titulo
